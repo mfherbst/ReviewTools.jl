@@ -20,7 +20,7 @@ end
 struct PretalxEvent
     name::String
 end
-PretalxEvent() = PretalxEvent("juliacon2023")
+PretalxEvent() = PretalxEvent("juliacon2024")
 
 reviews_url(event::PretalxEvent) = "https://pretalx.com/api/events/$(event.name)/reviews/"
 submission_url(event::PretalxEvent) = "https://pretalx.com/api/events/$(event.name)/submissions/"
